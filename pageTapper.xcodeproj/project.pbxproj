@@ -15,6 +15,12 @@
 		712215E42434F0FE00C2C691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 712215E22434F0FE00C2C691 /* LaunchScreen.storyboard */; };
 		712215EF2434F0FE00C2C691 /* pageTapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712215EE2434F0FE00C2C691 /* pageTapperTests.swift */; };
 		712215FA2434F0FF00C2C691 /* pageTapperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712215F92434F0FF00C2C691 /* pageTapperUITests.swift */; };
+		7122160A2434F97900C2C691 /* LEVSyndicateHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 712216082434F97900C2C691 /* LEVSyndicateHeaderView.xib */; };
+		7122160B2434F97900C2C691 /* LEVSyndicateHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712216092434F97900C2C691 /* LEVSyndicateHeaderView.swift */; };
+		7122160E2434FA0300C2C691 /* LEVSyndicateTabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7122160C2434FA0300C2C691 /* LEVSyndicateTabCell.swift */; };
+		7122160F2434FA0300C2C691 /* LEVSyndicateTabCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7122160D2434FA0300C2C691 /* LEVSyndicateTabCell.xib */; };
+		71221616243517C200C2C691 /* ParticipatedInCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71221614243517C200C2C691 /* ParticipatedInCell.swift */; };
+		71221617243517C200C2C691 /* ParticipatedInCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71221615243517C200C2C691 /* ParticipatedInCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		712215F52434F0FF00C2C691 /* pageTapperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pageTapperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		712215F92434F0FF00C2C691 /* pageTapperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageTapperUITests.swift; sourceTree = "<group>"; };
 		712215FB2434F0FF00C2C691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		712216082434F97900C2C691 /* LEVSyndicateHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LEVSyndicateHeaderView.xib; sourceTree = "<group>"; };
+		712216092434F97900C2C691 /* LEVSyndicateHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LEVSyndicateHeaderView.swift; sourceTree = "<group>"; };
+		7122160C2434FA0300C2C691 /* LEVSyndicateTabCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LEVSyndicateTabCell.swift; sourceTree = "<group>"; };
+		7122160D2434FA0300C2C691 /* LEVSyndicateTabCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LEVSyndicateTabCell.xib; sourceTree = "<group>"; };
+		71221614243517C200C2C691 /* ParticipatedInCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipatedInCell.swift; sourceTree = "<group>"; };
+		71221615243517C200C2C691 /* ParticipatedInCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParticipatedInCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,7 @@
 		712215D62434F0F900C2C691 /* pageTapper */ = {
 			isa = PBXGroup;
 			children = (
+				712216072434F96A00C2C691 /* View */,
 				712215D72434F0F900C2C691 /* AppDelegate.swift */,
 				712215D92434F0F900C2C691 /* SceneDelegate.swift */,
 				712215DB2434F0F900C2C691 /* ViewController.swift */,
@@ -126,6 +139,19 @@
 				712215FB2434F0FF00C2C691 /* Info.plist */,
 			);
 			path = pageTapperUITests;
+			sourceTree = "<group>";
+		};
+		712216072434F96A00C2C691 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				712216092434F97900C2C691 /* LEVSyndicateHeaderView.swift */,
+				712216082434F97900C2C691 /* LEVSyndicateHeaderView.xib */,
+				7122160C2434FA0300C2C691 /* LEVSyndicateTabCell.swift */,
+				7122160D2434FA0300C2C691 /* LEVSyndicateTabCell.xib */,
+				71221614243517C200C2C691 /* ParticipatedInCell.swift */,
+				71221615243517C200C2C691 /* ParticipatedInCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +258,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71221617243517C200C2C691 /* ParticipatedInCell.xib in Resources */,
 				712215E42434F0FE00C2C691 /* LaunchScreen.storyboard in Resources */,
 				712215E12434F0FE00C2C691 /* Assets.xcassets in Resources */,
+				7122160F2434FA0300C2C691 /* LEVSyndicateTabCell.xib in Resources */,
+				7122160A2434F97900C2C691 /* LEVSyndicateHeaderView.xib in Resources */,
 				712215DF2434F0F900C2C691 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71221616243517C200C2C691 /* ParticipatedInCell.swift in Sources */,
 				712215DC2434F0F900C2C691 /* ViewController.swift in Sources */,
+				7122160E2434FA0300C2C691 /* LEVSyndicateTabCell.swift in Sources */,
 				712215D82434F0F900C2C691 /* AppDelegate.swift in Sources */,
+				7122160B2434F97900C2C691 /* LEVSyndicateHeaderView.swift in Sources */,
 				712215DA2434F0F900C2C691 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
